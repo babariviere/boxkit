@@ -13,7 +13,11 @@ fzf
 github-cli
 go
 gopls
+helm
+jq
 just
+kubectl
+kubectx
 make
 micro
 nano
@@ -24,4 +28,5 @@ ripgrep
 speedtest-cli
 starship
 wl-clipboard
+yq-go
 zstd
