@@ -19,7 +19,9 @@ helm
 jq
 just
 kubectl
+kubectl-bash-completion
 kubectx
+kubectx-bash-completion
 make
 micro
 nano
