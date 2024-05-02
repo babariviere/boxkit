@@ -1,1 +1,2 @@
 forge.babariviere.com/babariviere/sealme@latest
+github.com/bitnami-labs/sealed-secrets/cmd/kubeseal@main
