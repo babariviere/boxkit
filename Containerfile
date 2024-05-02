@@ -12,7 +12,7 @@ RUN apk update && \
 RUN rm /extra-packages
 
 COPY go-packages /
-RUN grep -v '^#' /go-packages | xargs go install
+RUN grep -v '^#' /go-packages | xargs -n1 go install
 RUN rm /go-packages
 RUN mv /root/go/bin/* /usr/local/bin/
 
