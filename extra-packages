@@ -8,6 +8,7 @@ dbus-x11
 direnv
 emacs-pgtk
 eza
+fd
 ffmpeg
 fzf
 github-cli
