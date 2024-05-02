@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 (2024-05-02)
+
+
+### Features
+
+* add go packages ([d134acb](https://github.com/babariviere/boxkit/commit/d134acbceecd4a51a193e921e2602f04c197b4a1))
+
+
+### Bug Fixes
+
+* add missing permissions to release-please ([848627e](https://github.com/babariviere/boxkit/commit/848627e95ecc81af5d069bd690e6481a428bf700))
+
 ## [1.1.0](https://github.com/ublue-os/boxkit/compare/v1.0.0...v1.1.0) (2023-10-09)
 
 
