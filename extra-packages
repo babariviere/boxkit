@@ -21,8 +21,13 @@ jq
 just
 kubectl
 kubectl-bash-completion
+kubectl-fish-completion
 kubectx
 kubectx-bash-completion
+kubectx-fish-completion
+kustomize
+kustomize-bash-completion
+kustomize-fish-completion
 make
 micro
 nano
