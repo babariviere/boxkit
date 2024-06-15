@@ -35,6 +35,7 @@ ncdu
 ncurses
 plocate
 ripgrep
+sops
 speedtest-cli
 starship
 wl-clipboard
