@@ -37,6 +37,7 @@ ripgrep
 sops
 speedtest-cli
 starship
+tealdeer
 wl-clipboard
 yq-go
 zstd
