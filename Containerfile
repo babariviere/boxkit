@@ -3,7 +3,7 @@ FROM quay.io/toolbx-images/alpine-toolbox:edge
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
       summary="A cloud-native terminal experience" \
-      maintainer="jorge.castro@gmail.com"
+      maintainer="me@babariviere.com"
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 

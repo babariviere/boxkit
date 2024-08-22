@@ -38,6 +38,7 @@ ripgrep
 sops
 speedtest-cli
 starship
+stern
 tealdeer
 viddy
 wl-clipboard
