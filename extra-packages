@@ -7,7 +7,7 @@ clipboard
 cosign
 dbus-x11
 direnv
-emacs-pgtk
+elvish
 eza
 fd
 ffmpeg
@@ -20,6 +20,8 @@ gopls
 helm
 jq
 just
+kakoune
+kakoune-lsp
 kubectl
 kubectl-bash-completion
 kubectx
@@ -35,13 +37,15 @@ ncdu
 ncurses
 plocate
 ripgrep
+sad
 sops
 speedtest-cli
 starship
 stern
 tealdeer
+tmux
 viddy
 wl-clipboard
 yq-go
-zstd
 zoxide
+zstd
