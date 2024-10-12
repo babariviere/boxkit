@@ -1,6 +1,8 @@
+aerc
 age
 atuin
 bat
+broot
 btop
 carapace
 chezmoi
@@ -13,7 +15,6 @@ elvish
 eza
 fd
 ffmpeg
-fish
 flux
 fzf
 github-cli
@@ -28,16 +29,14 @@ kubectl
 kubectl-bash-completion
 kubectx
 kubectx-bash-completion
-kubectx-fish-completion
 kustomize
 kustomize-bash-completion
-kustomize-fish-completion
 make
-micro
 nano
 ncdu
 ncurses
 plocate
+podman-tui
 ripgrep
 sad
 sops
