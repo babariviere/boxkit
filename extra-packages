@@ -17,6 +17,7 @@ fd
 ffmpeg
 flux
 fzf
+fzf-tmux
 github-cli
 go
 gopls
