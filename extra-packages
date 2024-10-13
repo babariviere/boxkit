@@ -33,6 +33,7 @@ kubectx
 kubectx-bash-completion
 kustomize
 kustomize-bash-completion
+lazygit
 make
 nano
 ncdu
