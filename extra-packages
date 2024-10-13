@@ -23,6 +23,7 @@ gopls
 helm
 jq
 just
+k9s
 kakoune
 kakoune-lsp
 kubectl
