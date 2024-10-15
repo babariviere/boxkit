@@ -21,7 +21,9 @@ RUN mv /root/go/bin/* /usr/local/bin/
 COPY krew-plugins /
 RUN grep -v '^#' /krew-plugins | xargs -n1 kubectl krew install
 RUN rm /krew-plugins
-RUN mv /root/.krew/bin/* /usr/local/bin/
+RUN for bin in /root/.krew/bin/*; do \
+      mv $(readlink $bin) /usr/local/bin/$(basename $bin); \
+    done
 
 RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
