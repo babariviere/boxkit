@@ -7,16 +7,21 @@ LABEL com.github.containers.toolbox="true" \
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
-COPY extra-packages /
+COPY packages /
 RUN apk update && \
     apk upgrade && \
-    grep -v '^#' /extra-packages | xargs apk add
-RUN rm /extra-packages
+    grep -v '^#' /packages | xargs apk add
+RUN rm /packages
 
 COPY go-packages /
 RUN grep -v '^#' /go-packages | xargs -n1 go install
 RUN rm /go-packages
 RUN mv /root/go/bin/* /usr/local/bin/
+
+COPY krew-plugins /
+RUN grep -v '^#' /krew-plugins | xargs -n1 kubectl krew install
+RUN rm /krew-plugins
+RUN mv /root/.krew/bin/* /usr/local/bin/
 
 RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \

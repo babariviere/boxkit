@@ -28,6 +28,7 @@ k9s
 kakoune
 kubectl
 kubectl-bash-completion
+kubectl-krew
 kubectx
 kubectx-bash-completion
 kustomize
@@ -40,6 +41,7 @@ ncurses
 plocate
 podman-tui
 ripgrep
+cargo
 rust
 sad
 sops
