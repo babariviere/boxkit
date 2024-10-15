@@ -24,6 +24,7 @@ RUN rm /krew-plugins
 RUN for bin in /root/.krew/bin/*; do \
       mv $(readlink $bin) /usr/local/bin/$(basename $bin); \
     done
+RUN rm -rf /root/.krew
 
 RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
